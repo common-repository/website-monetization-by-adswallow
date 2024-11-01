@@ -1,0 +1,66 @@
+.fieldset-box-short,
+.fieldset-box {
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px 0 0;
+    margin: 20px 0;
+    min-width: 460px;
+    min-height: 215px;
+    /*float: left;*/
+    margin-right: 25px;
+    /*clear: both;*/
+    max-width: 497px;
+}
+.fieldset-box-short {
+    min-height: 0;
+    padding-bottom: 5px;
+    /*clear: both;*/
+
+}
+.fieldset-box p {
+    margin-top: 0;
+}
+.fieldset-box h3 {
+    margin: 0 20px 25px;
+}
+.fieldset-box-short h3 {
+    margin: 0 20px 10px;
+}
+.fieldset-box.fieldset-box-short .input-group {
+    padding: 15px 20px 7px;
+}
+.fieldset-box .input-group {
+    padding: 15px 20px;
+}
+.fieldset-box-short .input-group {
+    padding: 0 20px 15px;
+}
+.fieldset-box .input-group:nth-child(2n) {
+    background-color: aliceblue;
+}
+.fieldset-box-short .input-group:nth-child(2n) {
+    background-color: white;
+}
+.fieldset-box .field-label {
+    min-width: 410px;
+    font-size: 14px;
+}
+.fieldset-box .ad-subtitle {
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 5px;
+    color: gray;
+}
+.fieldset-box .field-label,
+.fieldset-box .field-input {
+    display: inline-block;
+}
+p.submit {
+    clear: both;
+}
+.ui-tooltip-content img {
+    width: 100%;
+    padding-top: 10px;
+}
